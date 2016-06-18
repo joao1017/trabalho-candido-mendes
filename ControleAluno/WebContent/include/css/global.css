@@ -1,0 +1,84 @@
+#logo-topo-span {
+	text-align: left;
+	display: block;
+	text-indent: -999999px;
+	overflow: hidden;
+	float: left;
+	padding: 0;
+	margin-top: 2.5px;
+	position: relative;
+	left: 8px;
+}
+
+#elemento-logo{
+	background-color:#7F3442;
+	cursor : pointer
+}
+
+#image-logo{
+	width:200px;
+	height:157px;
+}
+
+#fundo-aluno-apresentacao{
+	background-image: url("../images/fundo-aluno.gif");
+	opacity: 0.2;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    background-size: 500px 400px;
+    margin-left:35%;
+    margin-top:5%;
+}
+
+.titulo-tabela {
+	height: 35px;
+	margin-bottom: 3%;
+	font-weight: bold;
+	color: #8b8e8f;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.espaco-topo{
+	margin-top:5%;
+}
+
+.resultado-consulta {
+	color: #8b8e8f !important;
+}
+
+#loader {
+	width: 80px;
+	height: 80px;
+}
+
+.espacamento-tabela-consulta{
+	margin-top:5%;
+}
+
+.resultado{
+	cursor : pointer !important;
+}
+
+.espacamento-topo{
+	margin-top:10px;
+}
+
+.hidden-element{
+	display: none !important;	
+}
+
+.campo-obrigatorio{
+	border : 1px solid red !important;
+}
+
+.fundo-login{
+	background-color: #ffffff !important;
+	padding : 20px !important;
+	border-radius: 10px;
+   opacity: .65;
+   -moz-opacity: .65;
+   filter:alpha(opacity=65);
+}
